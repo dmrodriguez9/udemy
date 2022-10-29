@@ -1,0 +1,62 @@
+
+.div
+{
+    border: 20px solid gray;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+}
+
+h3{
+    border: 20px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.parrafo{
+
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: justify;
+  
+}
+
+.datos
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.boton{
+
+    font-weight: lighter;
+    color: white;
+    font-size: 15px;
+    width: 90px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 8px;  /*bordes redondeados*/
+    /*border-style: none; Elimina los bordes*/   
+}

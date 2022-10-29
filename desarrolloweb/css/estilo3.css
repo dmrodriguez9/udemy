@@ -1,0 +1,16 @@
+
+.capa1
+{
+  color: burlywood;
+}
+
+.capa2
+{
+    color: turquoise;
+    border: 4px solid skyblue;
+}
+
+#parrafo1 /*cuando es mediante un id*/{
+    color: red;
+    background-color: aqua;
+}

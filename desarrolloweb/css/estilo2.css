@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(70, 190, 190);
+    /*background: url(../img/rc.jpeg);
+    background-repeat: no-repeat;*/
+}
+
+div{
+    background: bisque;
+    border-color:  #6fa7f4 ;
+    border-width: 2px;
+    border-style: solid;
+}
+
+span{
+    color:  #ed4475 ;
+    border: 4px solid red;
+}
+
+p{
+    color:  #0c474a ;
+}

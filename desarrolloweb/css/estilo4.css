@@ -1,0 +1,20 @@
+/*Estilos para las fuentes*/
+h1
+{
+    font-family: fantasy;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p
+{
+    font-weight: bolder;  /*Mas delgado o mas grueso*/
+}
+
+.parrafo2
+{
+    font-weight: lighter;
+    font-size: 20px;
+
+}

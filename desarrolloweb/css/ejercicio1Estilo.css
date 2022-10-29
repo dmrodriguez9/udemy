@@ -1,0 +1,32 @@
+h1{
+    font-family: fantasy;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: lighter;
+    padding-bottom: 30px;
+    
+}
+
+.tablita
+{
+    width: 300px;
+    height: 300px;
+    align-content: center;
+    margin: auto; /*para centrar*/
+    
+}
+
+.verde
+{
+    background-color: rgb(62, 228, 62);
+}
+
+.azul
+{
+    background-color: rgb(50, 50, 235);
+}
+
+.gris
+{
+    background-color: darkgray;
+}

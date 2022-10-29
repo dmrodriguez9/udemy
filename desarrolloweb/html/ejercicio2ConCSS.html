@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con CSS</title>
+    <link rel="stylesheet" href="../css/ejercicio2Estilo.css">
+</head>
+<body>
+
+    <div class="div">
+        <form action="../html/resultado.html" method="get">
+            <h1>Formulario de alta de usuario</h1>
+            <h2>Condiciones del servicio</h2>
+            <p class="parrafo">Antes de dejar el hospital, la persona hospitalizada o 
+                sus familiares deben cerciorarse de que reciben instrucciones detalladas referentes al 
+                seguimiento del paciente, y de que las entienden. Deben recibir un programa por escrito
+                 en el que conste todo el tratamiento y las citas de seguimiento. Al llegar a casa, debe 
+                 llamar a su médico de cabecera para programar una cita de seguimiento, a menos que ya se la 
+                 hayan programado antes de salir del hospital. Para asegurarse de que recibe la atención de 
+                 seguimiento adecuada, es importante que le diga al personal de enfermería o a la persona que 
+                 programa las citas que acaba de ser dado de alta del hospital y que necesita una 
+                 cita dentro de los próximos 3 a 10 días.</p>
+            <p>Por favor, introduce tus datos</p>
+            <label for="nombre" class="datos">Nombre</label>
+            <br>
+            <input type="text" name="nombre" id="nombre">
+            <br>
+            <label for="email" class="datos">Email</label>
+            <br>
+            <input type="email" name="email" id="email">
+            <br>
+            <br>
+            <input type="submit" name="boton" id="boton" class="boton" value="Enviar">
+        </form>
+
+    </div>
+    
+</body>
+</html>
