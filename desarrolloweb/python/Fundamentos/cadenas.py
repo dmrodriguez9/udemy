@@ -4,5 +4,5 @@ caracter=texto[0:4] #0:4 va desde la posicion 0 a la 4
 print(caracter)
 mayusculas=texto.upper() #upper convierte en mayusculas
 print(mayusculas)
-minusculas=texto.lower() #lower convierte en minusculas
+minusculas=texto.lower() #lower Convierte en minisculas
 print(minusculas)
