@@ -11,16 +11,18 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
-
-
+BASE_DIR = Path(__file__).resolve().parent.parent #Directorio base de la aplicacion
+print(BASE_DIR)
+TEMPLATES_DIR=os.path.join(BASE_DIR,"templates") #oon os.path.dir adjuntamos rutas
+print(TEMPLATES_DIR)
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-*qn7$u&9u=_#_lx3_aur3+wto#%%f2j^4*+z9!lvj10u=0_3pd'
+SECRET_KEY = 'django-insecure-&jh@)iys48idtwa0h6kom#0pfipxf*)y@orngb#j5jd@ez_q3t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'aplicacion1',
 ]
 
 MIDDLEWARE = [
@@ -54,7 +57,7 @@ ROOT_URLCONF = 'proyecto1.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [TEMPLATES_DIR,], #La coma dentro de los corchetes por si queremos añadir mas cosas
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

@@ -16,7 +16,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from aplicacion1 import views
+from django.conf.urls import include #otra forma de mapear la ruta del navegador con la vista
 
 urlpatterns = [
+    #otra forma pero para poder visualizar en el navegador es con /aplicacion1
+    path('aplicacion1/',views.vista1,name='vista1'), 
+    #path('',views.vista1,name='vista1'),
+    path('ruta2/', include('aplicacion1.ruta2')),
+    path('ruta3/',views.vista3,name='vista3'),
     path('admin/', admin.site.urls),
 ]
