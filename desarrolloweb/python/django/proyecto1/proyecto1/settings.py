@@ -18,6 +18,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent #Directorio base de la aplicac
 print(BASE_DIR)
 TEMPLATES_DIR=os.path.join(BASE_DIR,"templates") #oon os.path.dir adjuntamos rutas
 print(TEMPLATES_DIR)
+STATIC_DIR=os.path.join(BASE_DIR,"static")
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
@@ -119,6 +120,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
+STATICFILES_DIRS=[STATIC_DIR,]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
