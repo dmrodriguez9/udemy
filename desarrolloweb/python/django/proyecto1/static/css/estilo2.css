@@ -1,0 +1,13 @@
+h1{
+    color:green;
+}
+
+tabla, td{
+    border: solid 3px green;
+}
+
+/*Cabecera de la tabla*/
+th{
+    border: solid 3px green;
+    background-color: lightgrey;
+}
