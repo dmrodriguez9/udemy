@@ -9,11 +9,11 @@
 </head>
 <body>
     <h1>Portada de nuestra página web</h1>
+    <h3>Lista de webs de nuestra base de datos</h3>
     {% if lista_webs %}
         <table>
             <thead>
                 <th>Nombre</th>
-                <th>Ruta</th>
             </thead>
             {% for web in lista_webs %}
                 <tr>
@@ -24,6 +24,23 @@
         </table>
     {% else %}
         <p>No hay webs en la base de datos</p>
+    {% endif %}
+
+    <!--Lista de temas-->
+    <h3>Lista de temas de nuestra base de datos</h3>
+    {% if lista_temas %}
+        <table>
+            <thead>
+                <th>Nombre</th>
+            </thead>
+            {% for tema in lista_temas %}
+                <tr>
+                    <td>{{tema.nombre}}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+        <p>No hay temas en la base de datos</p>
     {% endif %}
 </body>
 </html>

@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from aplicacion1.models import Webs
+from aplicacion1.models import Temas #ejercicio2
 from aplicacion1 import forms
 #from . import forms #El . hace referencia a los archivos de la carpeta aplicacion1 es decir se cambia al archivo deseado
 
@@ -24,8 +25,9 @@ def vista5(request):
     return render(request,"aplicacion1/pagina3.html",context=diccionario)
 
 def vista6(request):
+    lista_temas=Temas.objects.all()
     lista_webs=Webs.objects.order_by('nombre')
-    diccionario={'lista_webs':lista_webs}
+    diccionario={'lista_webs':lista_webs,'lista_temas':lista_temas}
     return render(request,"aplicacion1/portada.html",context=diccionario)
 
 def vista7(request):
@@ -59,3 +61,4 @@ def plantilla(request):
 def vista8(request):
     diccionario={'etiqueta3':'Esta etiqueta pertenece a la pagina 6'}
     return render(request,"aplicacion1/pagina6.html",context=diccionario)
+
