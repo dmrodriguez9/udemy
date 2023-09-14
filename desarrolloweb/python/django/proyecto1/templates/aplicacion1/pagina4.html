@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% extends "aplicacion1/plantilla.html" %}
+{% load misfiltros %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block cabecera %}
+     <title>Pagina4</title>
+     {% endblock %}
+</head>
+<body>
+    <h1>Portada de nuestro sitio web</h1>
+    {% block bloque1 %}
+        <h1>Estamos en la página 4</h1>
+        <a href="{% url 'aplicacion1:pagina5' %}">Ir a la página 5</a>
+        <h3>{{texto|recortar:'Hola'}}</h3>
+        <h3>{{numero}}</h3>
+        <h3>{{hora|default:"No hay datos para la hora"}}</h3>
+    {% endblock %}
+</body>
+</html>
