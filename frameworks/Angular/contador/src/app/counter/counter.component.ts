@@ -8,12 +8,8 @@ import { Component } from "@angular/core";
 
 export class counterComponent{
     contador: number=0;
-
-  aumentar(){
-    this.contador++;
-  }
-  disminuir(){
-    this.contador--;
-  }
+    handleCount(value:number ){
+      this.contador=value;
+    }
 
 }

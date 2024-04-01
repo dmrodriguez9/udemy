@@ -1,4 +1,5 @@
 <h1>Contador: {{contador}}
 <hr>
-<button (click)="aumentar()">+1</button>
-<button (click)="disminuir()">-1</button>
+<app-button-add (contador)="contador" (onAdd)="handleCount($event)"></app-button-add>
+<app-button-dis (contador)="contador" (onDis)="handleCount($event)"></app-button-dis>
+
