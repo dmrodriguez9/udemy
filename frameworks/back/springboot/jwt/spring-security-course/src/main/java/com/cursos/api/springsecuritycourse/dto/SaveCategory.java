@@ -21,11 +21,4 @@ public class SaveCategory implements Serializable {
     
     @NotBlank
     private String name;
-    @DecimalMin(value="0.01")
-    
-    private BigDecimal price;
-    @Min(value=1)
-    
-    private Long categoryId;
-    
 }
