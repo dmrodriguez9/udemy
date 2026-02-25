@@ -1,0 +1,4 @@
+dotnet new console --name CsBases
+
+-dentro de CsBases
+dotnet run

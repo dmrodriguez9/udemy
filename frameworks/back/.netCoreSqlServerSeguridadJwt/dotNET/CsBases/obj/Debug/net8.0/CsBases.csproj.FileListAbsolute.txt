@@ -1,0 +1,15 @@
+C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\CsBases\bin\Debug\net8.0\CsBases.exe
+C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\CsBases\bin\Debug\net8.0\CsBases.deps.json
+C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\CsBases\bin\Debug\net8.0\CsBases.runtimeconfig.json
+C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\CsBases\bin\Debug\net8.0\CsBases.dll
+C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\CsBases\bin\Debug\net8.0\CsBases.pdb
+C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\CsBases\obj\Debug\net8.0\CsBases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\CsBases\obj\Debug\net8.0\CsBases.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\CsBases\obj\Debug\net8.0\CsBases.AssemblyInfo.cs
+C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\CsBases\obj\Debug\net8.0\CsBases.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\CsBases\obj\Debug\net8.0\CsBases.sourcelink.json
+C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\CsBases\obj\Debug\net8.0\CsBases.dll
+C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\CsBases\obj\Debug\net8.0\refint\CsBases.dll
+C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\CsBases\obj\Debug\net8.0\CsBases.pdb
+C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\CsBases\obj\Debug\net8.0\CsBases.genruntimeconfig.cache
+C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\CsBases\obj\Debug\net8.0\ref\CsBases.dll
