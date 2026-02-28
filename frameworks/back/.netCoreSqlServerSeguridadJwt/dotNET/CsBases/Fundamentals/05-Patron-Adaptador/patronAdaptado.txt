@@ -1,0 +1,2 @@
+El patron adaptador es una patron de diseño estructural que permite
+que dos clases con interfaces incompatibles trabajen juntas
