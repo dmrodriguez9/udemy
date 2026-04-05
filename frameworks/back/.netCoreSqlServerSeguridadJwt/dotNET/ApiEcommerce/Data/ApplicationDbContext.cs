@@ -4,8 +4,10 @@
 using System.ComponentModel;
 using Microsoft.EntityFrameworkCore;
 
+//"Esta clase representa mi base de datos"
 public class ApplicationDbContext: DbContext
 {
+    //Construtor, permite que ASP.NET Core le pase la configuración (cadena de conexión).
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options): base(options)
     {
         
