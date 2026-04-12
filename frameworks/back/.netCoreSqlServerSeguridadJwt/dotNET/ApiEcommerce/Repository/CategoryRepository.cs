@@ -9,7 +9,7 @@ public class CategoryRepository : ICategoryRepository
     private readonly ApplicationDbContext _db;
 
     //Constructor
-    private CategoryRepository(ApplicationDbContext db)
+    public CategoryRepository(ApplicationDbContext db)
     {
         _db=db;
     }

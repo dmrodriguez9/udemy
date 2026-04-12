@@ -5,6 +5,8 @@ C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotN
 C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\ApiEcommerce\bin\Debug\net8.0\ApiEcommerce.runtimeconfig.json
 C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\ApiEcommerce\bin\Debug\net8.0\ApiEcommerce.dll
 C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\ApiEcommerce\bin\Debug\net8.0\ApiEcommerce.pdb
+C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\ApiEcommerce\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\ApiEcommerce\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\ApiEcommerce\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\ApiEcommerce\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\USER\Documents\udemy\frameworks\back\.netCoreSqlServerSeguridadJwt\dotNET\ApiEcommerce\bin\Debug\net8.0\Humanizer.dll
